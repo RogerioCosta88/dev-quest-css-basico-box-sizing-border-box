@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: Box-Sizing Border-Box</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Box-Sizing: Border-Box</h1>
+
+    <p>É utilizado para facilitar o cálculo ao estilizar a largura e altura dos elementos. Inclui o tamanho das caixas: <strong>padding</strong> e <strong>border</strong>. Utilizando essa propriedade o elemento terá exatamente o tamanho que queremos.</p>
+
+    <div class="com-border-box">Com border box</div>
+
+    <p>Quando temos um elemento sem o <strong>box-sizing: border-box</strong>, a largura terá um tamanho maior do que o especificado no <i>estilo</i>, por exemplo: largura do elemento + border da esquerda + padding da esquerda + padding da direita + border da direita + = largura total do elemento. O mesmo exemplo pode ser aplicado para a altura.</p>
+    <div class="sem-border-box">Sem border box</div>
+</body>
+</html>
